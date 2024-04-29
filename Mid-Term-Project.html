@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head><meta charest="utf-8">
+<style>
+    body {
+        width: 980px;
+        margin: 0;
+        padding: 0;
+    }
+    header p {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 40px
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: gray;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: darkgray;
+    }
+    .clear {
+        clear: both;
+    }
+    aside {
+        float: left;
+        width: 280px;
+        text-align: center;
+    }
+    section {
+        float: right;
+        width: 700px;
+        text-align: center;
+        background-color: #ddd;
+    }
+    footer {
+        text-align: center;
+    }
+    .table-container {
+        border: px solid #ddd;
+        display: inline-block;
+        margin: 0;
+        padding: 2px;
+    }
+    table {
+        text-align: center;
+        width: 260px;
+        border-collapse: collapse;
+    }
+    td {
+        border: 1px solid #ddd;
+        padding: 10px
+    }
+    th {
+        background-color: #ddd;
+        border: 1px solid white;
+        padding: 10px
+    }
+    div div {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        border: 3px solid black;
+        margin: 10px;
+        overflow: hidden;
+        background: white;
+        position: relative;
+        text-align: center;
+    }
+    div div img {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+</style></head>
+<body>
+<header>
+    <p>김효연의 홈페이지</p>
+</header>
+<nav>
+    <ul>
+        <li><a href="#H">Home</a></li>
+        <li><a href="#P">Proflie</a></li>
+        <li><a href="#E">Education</a></li>
+        <li><a href="#S">Skills</a></li>
+        <li><a href="#C">Contact</a></li>
+    </ul>
+<aside>
+    <h2>32211340 김효연</h2>
+    <figure>
+        <img width="200" height=""
+        src="https://search.pstatic.net
+/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAyMTlfMTYg%2FMDAxNzA4MjcxMDUwMjgy.
+WHPDRPzp-O6ccaPjNlIltp4W3sDLFRLMc4bG4gmpUuog.hayDpNnyMi9gTgchxmYX0QyibGpX9muV3Py4yBaeClgg.
+PNG.sunjee1004%2Fimage.png&type=a340" alt="Judy Log">
+    </figure>
+    <div class="table-container">
+    <table class="table">
+        <tbody>
+            <tr><th>이름</th><td>김효연</td></tr>
+            <tr><th>학번</th><td>32211340</td></tr>
+            <tr><th>학과</th><td>사이버보안학과</td></tr>
+            <tr><th>학년</th><td>3학년</td></tr>
+        </tbody>
+    </table>
+    </div>
+</aside>
+<section>
+    <p><b>Education</b></p>
+    <p>2024 웹프로그래밍</p>
+    <hr>
+    <p><b>Skills</b></p>
+    <div style="background : #ddd">
+        <div><img src="images/C++.png"  alt="C++ Log"></div>
+        <div><img src="images/Java.png"  alt="Java Log"></div>
+        <div><img src="images/C.png"  alt="C Log"></div>
+    </div>
+    <div style="background : #ddd">
+        <div><img src="images/Python.png"  alt="Python Log"></div>
+        <div><img src="images/JS.png"  alt="JS Log"></div>
+        <div><img src="images/react.png"  alt="react Log"></div>
+    </div>
+</section>
+<footer class="clear">  
+   <p><i><br>Copyright &copy 2024 김효연</i></p>
+</footer>
+</body>
+</html>
